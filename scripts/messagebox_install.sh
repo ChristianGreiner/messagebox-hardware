@@ -70,7 +70,7 @@ After=multi-user.target
 
 [Service]
 Type=idle
-ExecStart=/usr/bin/python /home/pi/sample.py
+ExecStart=/usr/bin/sh /home/$USER/messagebox-hardware/src/start.sh
 User=$USER
 Restart=on-failure
 
@@ -88,8 +88,3 @@ EOT
     echo "\nEnable Messagebox Service"
     sudo systemctl enable messagebox.service
 fi
-
-# packages
-# pip3 install adafruit-circuitpython-rgb-display
-# pip3 install pillow
-# pip3 install gpiozero
