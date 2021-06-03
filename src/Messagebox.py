@@ -288,7 +288,7 @@ class Messagebox(object):
                         self.servo.rotate(0)
                         time.sleep(SERVO_ROTATION_SPEED)
                 
-                time.sleep(5)
+                time.sleep(self.rotation_interval)
 
     def _fetch_messages(self):
         response = self.network.fetch_messages()
