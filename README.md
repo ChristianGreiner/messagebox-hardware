@@ -19,8 +19,8 @@ The hardware of the messagebox. Inspired by [Lovebox](https://en.lovebox.love/).
 ## Installation
 
 ### Quickstart (WIP)
-If you have a fresh installation if your system, you can use the [install script](https://github.com/ChristianGreiner/messagebox-hardware/blob/master/scripts/messagebox_install.sh).
-Check it out to see, what it does. 
+If you have a fresh installation of your system, you can use the [install script](https://github.com/ChristianGreiner/messagebox-hardware/blob/master/scripts/messagebox_install.sh).
+Check it out to see, what it does.
 
 ### Manual installation
 
@@ -47,6 +47,10 @@ setup = False
 3. Restart the app again: `$> python main.py`
 4. Now the display should show the message "Device ID: 123456". Login in your messagebox account, open the "device"-page and register your device.
 5. If the code was correct, the device should be registered and is ready to use.
+
+## Run Script on startup
+
+
 
 ## Setup the hardware
 
